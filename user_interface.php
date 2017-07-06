@@ -84,7 +84,7 @@ if(isset($_SESSION['role'])=='user'){
 
                                             <div class="col-md-12 col-sm-12">
                                                 <div class="form-group">
-                                                    <button type="submit" class="btn btn-primary pull-right darker"><i class="fa fa-search"></i>&nbsp; Search</button>
+                                                    <button type="submit" class="btn btn-primary pull-right darker btn-rounded"><i class="fa fa-search"></i>&nbsp; Search</button>
                                                 </div>
                                                 <!--end form-group-->
                                             </div>
