@@ -273,7 +273,7 @@ if(isset($_SESSION['role'])=='user'){
                     <div class="container">
                         <div class="vertical-aligned-elements">
                             <div class="element width-50">
-                                <h3>Subscribe and be notified about new locations</h3>
+                                <h3 style="color:black;">Subscribe and be notified about new locations</h3>
                             </div>
                             <!--end element-->
                             <div class="element width-50">
@@ -339,8 +339,6 @@ if(isset($_SESSION['role'])=='user'){
                                 <div class="element width-50">(C) 2016 Your Company, All right reserved</div>
                                 <div class="element width-50 text-align-right">
                                     <a href="index.html">Home</a>
-                                    <a href="listing-grid-right-sidebar.html">Listings</a>
-                                    <a href="submit.html">Submit Item</a>
                                     <a href="contact.html">Contact</a>
                                 </div>
                             </div>
