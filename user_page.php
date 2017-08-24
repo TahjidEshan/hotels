@@ -5,19 +5,18 @@ if(isset($_SESSION['role'])=='user')
 {
 $query= mysqli_query($con,"SELECT * FROM `finforex_users` WHERE `userid`='".$_SESSION['userid']."' AND  `role`='user' ");
 $arr = mysqli_fetch_array($query);
-$num = mysqli_num_rows($query); 
+$num = mysqli_num_rows($query);
 if($num==1)
 {
 ?>
-<h1 style="font-weight: 400;">Welcome <?php echo $arr['username']; ?></h1> 
-<?php   
+<?php
 require_once('user_interface.php');
 }else{
 header ("location:login.php");
 }
-}   
+}
 else
       header ("location:login.php");
-    
-?>	
-</body>	
+
+?>
+</body>
